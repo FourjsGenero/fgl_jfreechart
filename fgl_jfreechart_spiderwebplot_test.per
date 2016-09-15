@@ -1,0 +1,45 @@
+LAYOUT
+HBOX
+FOLDER
+PAGE (TEXT="Settings")
+GRID
+{
+Title   [t01       ]
+Width   [t02       ]
+Height  [t03       ]
+Filename[t04       ]
+}
+END
+END
+PAGE (TEXT="Data")
+TABLE
+{
+[d01      |d02       |d03        ]
+}
+END
+END
+END
+GRID
+{
+[i01      ]
+[         ]
+}
+END
+END
+END
+ATTRIBUTES
+EDIT t01 = formonly.TITLE;
+SPINEDIT t02 = formonly.width;
+SPINEDIT t03 = formonly.HEIGHT;
+EDIT t04 = formonly.filename;
+
+EDIT d01 = formonly.data1, SCROLL;
+EDIT d02 = formonly.data2, SCROLL;
+EDIT d03 = formonly.value1, SCROLL, JUSTIFY=RIGHT;
+
+IMAGE i01 = formonly.chart, WIDTH=400 PIXELS, HEIGHT=300 PIXELS, SIZEPOLICY=FIXED;
+
+INSTRUCTIONS 
+SCREEN RECORD scr_data(data1, data2, value1);
+
+
