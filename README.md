@@ -8,6 +8,8 @@ On Mac I found I needed to add --java-option=-Djava.awt.headless=true , to both 
 
 Code I'd expect you to end up with is of the form ...
 
+    IMPORT FGL fgl_jfreechart_spiderwebplot
+    
     FUNCTION sample_code()
     DEFINE r fgl_jfreechart_spiderwebplot.spider_web_type
 
