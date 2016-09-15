@@ -1,5 +1,5 @@
 # fgl_jfreechart
-Library to interact with jfreechart that is shipped inside Genero Report Writer,  This allows you to create chart image files.
+Library to interact with jfreechart that is shipped inside Genero Report Writer,  This allows you to create chart image files using any of the charts that are available in jfreechart.
 
 Setup...
 CLASSPATH needs to include GREDIR/lib/jars/gre.jar
