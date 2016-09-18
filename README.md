@@ -28,5 +28,5 @@ Code I'd expect you to end up with is of the form ...
     LET r.filename = "image.png"
     CALL fgl_jfreechart_spiderwebplot.generate(r.*)
     
-   END FUNCTION
+    END FUNCTION
 
