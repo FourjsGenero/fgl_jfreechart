@@ -1,4 +1,14 @@
+# !!! DEPRECATED !!!
+The 3.10 release of Genero now includes the Spider Web Plot that was the raison d'etre of this example.  See the 4th entry here http://4js.com/online_documentation/fjs-gst-manual-html/#gst-topics/grd_whatsnew_310.html.
+
+If there is functionality you believe that is available in the Java charting classes we use for Genero Report Writer, please contact your local support contact and ask for that functionality to be exposed.  The rangeUpperBound and rangeLowerBound properties are examples of this.
+
+If there is interest I may revisit this example but working with the actual Java packages rather than working through the Genero Report Engine .jar
+
+Reuben Barclay October 2017
+
 # fgl_jfreechart
+
 Library to interact with jfreechart that is shipped inside Genero Report Writer,  This allows you to create chart image files using any of the charts that are available in jfreechart.
 
 Setup...
